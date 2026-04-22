@@ -1,3 +1,5 @@
+//Normalmente se usa cuando estoy trabajando con bits para identificar como queda un numero después de modificar un bit
+
 string dec_to_bin(int64_t n) {
     bitset<32> bs(n);
     string s = bs.to_string();
