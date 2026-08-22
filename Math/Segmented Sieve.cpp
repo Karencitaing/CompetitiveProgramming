@@ -1,7 +1,7 @@
 /*
 Math/Sieve.cpp
 */
-
+//encuentra los numeros primos que están entre l y r//
 #define int int64_t
 vector<int> segmented_criba(int l, int r) {
     l = max<int>(l, 2ll);
